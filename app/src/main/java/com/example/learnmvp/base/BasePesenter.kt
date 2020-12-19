@@ -9,8 +9,8 @@ import android.content.Context
  */
 abstract class BasePresenter<T, E>() {
 
-    private var mView: T? = null
-    private var mModel: E? = null
+    var mView: T? = null
+    var mModel: E? = null
 
     open lateinit var mContext: Context
 
